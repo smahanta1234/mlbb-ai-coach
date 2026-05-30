@@ -1,0 +1,27 @@
+{
+  "categories": {
+    "High Mobility": {
+      "countered_by": ["Hard CC", "Suppression", "Lockdown"],
+      "strong_against": ["Immobile Backline", "Squishy Heroes"],
+      "recommended_heroes": ["Khufra", "Franco", "Minsitthar", "Kaja"]
+    },
+
+    "Healing Sustain": {
+      "countered_by": ["Anti Heal", "Burst Damage"],
+      "strong_against": ["Poke Damage"],
+      "recommended_heroes": ["Baxia", "Luo Yi", "Carmilla"]
+    },
+
+    "Attack Speed": {
+      "countered_by": ["Blade Armor", "Crowd Control"],
+      "strong_against": ["Frontline Tanks"],
+      "recommended_heroes": ["Belerick", "Khufra", "Lolita"]
+    },
+
+    "Immobile Backline": {
+      "countered_by": ["Dive", "Assassins"],
+      "strong_against": ["Short Range Teams"],
+      "recommended_heroes": ["Hayabusa", "Ling", "Natalia", "Helcurt"]
+    }
+  }
+}

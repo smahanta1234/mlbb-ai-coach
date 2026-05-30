@@ -1,0 +1,170 @@
+{
+  "Basic Common Emblem": {
+    "attributes": {
+      "Hybrid Regen": 12,
+      "HP": 275,
+      "Adaptive Attack": 22
+    },
+    "standardTalents": {
+      "Thrill": {
+        "effect": "Gain 16 Adaptive Attack."
+      },
+      "Swift": {
+        "effect": "Gain 10% Extra Attack Speed."
+      }
+    },
+    "coreTalents": {
+      "Impure Rage": {
+        "effect": "Dealing damage with skills deals 4% of target's Max HP extra Adaptive Damage and restores 2% Mana on hit. If the hero does not use Mana, restores 1% HP instead.",
+        "cooldown": "5s"
+      },
+      "Quantum Charge": {
+        "effect": "Dealing damage with Basic Attacks increases Movement Speed by 30% for 1.5s and restores 75-180 HP scaling with level.",
+        "cooldown": "10s"
+      },
+      "War Cry": {
+        "effect": "The next Ultimate cast decreases other active skills' remaining cooldowns by 1.5 times within 4 seconds. Extended by 2 seconds after hero kills or assists.",
+        "cooldown": "20s"
+      },
+      "Temporal Reign": {
+        "effect": "The next Ultimate cast decreases other active skills' remaining cooldowns by 1.5 times within 4 seconds. Extended by 2 seconds after hero kills or assists.",
+        "cooldown": "20s"
+      }
+    }
+  },
+
+  "Custom Tank Emblem": {
+    "attributes": {
+      "HP": 500,
+      "Hybrid Defense": 10,
+      "HP Regen": 4
+    },
+    "standardTalents": {
+      "Vitality": {
+        "effect": "Gain 225 extra max HP."
+      },
+      "Tenacity": {
+        "effect": "When HP is below 50%, Damage Reduction is increased by 5%."
+      }
+    },
+    "coreTalents": {
+      "Concussive Blast": {
+        "effect": "After the next Basic Attack, deal 100(+7% Total HP) Magic Damage to nearby enemies.",
+        "cooldown": "15s"
+      }
+    }
+  },
+
+  "Custom Assassin Emblem": {
+    "attributes": {
+      "Adaptive Penetration": 14,
+      "Adaptive Attack": 10,
+      "Movement Speed": "3%"
+    },
+    "standardTalents": {
+      "Rupture": {
+        "effect": "Gain 5 Adaptive Penetration."
+      },
+      "Master Assassin": {
+        "effect": "If there is only one enemy hero nearby, damage dealt to them is increased by 7%."
+      }
+    },
+    "coreTalents": {
+      "Killing Spree": {
+        "effect": "When damaging heroes below 30% HP, instantly recover 15% Lost HP and gain 20% Movement Speed. Resets cooldown upon killing an enemy hero.",
+        "duration": "3s",
+        "cooldown": "30s"
+      }
+    }
+  },
+
+  "Custom Mage Emblem": {
+    "attributes": {
+      "Magic Power": 30,
+      "Cooldown Reduction": "5%",
+      "Magic Penetration": 8
+    },
+    "standardTalents": {
+      "Inspire": {
+        "effect": "Cooldown Reduction is increased by 5% and Mana Regen by 2."
+      },
+      "Bargain Hunter": {
+        "effect": "Equipment can be purchased at 95% of their base price."
+      }
+    },
+    "coreTalents": {
+      "Lethal Ignition": {
+        "effect": "Dealing damage greater than 7% of an enemy hero's Max HP 3 times within 5s scorches the target for additional Adaptive Damage scaling with level.",
+        "cooldown": "15s"
+      }
+    }
+  },
+
+  "Custom Fighter Emblem": {
+    "attributes": {
+      "Hybrid Lifesteal": "10%",
+      "Adaptive Attack": 16,
+      "Hybrid Defense": 8
+    },
+    "standardTalents": {
+      "Firmness": {
+        "effect": "Gain 8 extra Physical & Magic Defense."
+      },
+      "Festival of Blood": {
+        "effect": "Gain 6% Spell Vamp. Each hero kill or assist grants an additional 0.5% Spell Vamp, up to 12 stacks."
+      }
+    },
+    "coreTalents": {
+      "Brave Smite": {
+        "effect": "Dealing skill damage to an enemy hero recovers 5% Max HP.",
+        "cooldown": "6s"
+      }
+    }
+  },
+
+  "Custom Support Emblem": {
+    "attributes": {
+      "Healing Effect": "12%",
+      "Cooldown Reduction": "10%",
+      "Movement Speed": "6%"
+    },
+    "standardTalents": {
+      "Agility": {
+        "effect": "Gain 4% extra Movement Speed."
+      },
+      "Pull Yourself Together": {
+        "effect": "Cooldowns of Battle Spells and equipment active skills are reduced by 12% initially. Each hero kill or assist grants an additional 1% reduction, up to 8 stacks."
+      }
+    },
+    "coreTalents": {
+      "Focusing Mark": {
+        "effect": "After damaging an enemy hero, allied heroes deal 6% more damage to them and gain 10% Movement Speed.",
+        "duration": "3s",
+        "cooldown": "4s"
+      }
+    }
+  },
+
+  "Custom Marksman Emblem": {
+    "attributes": {
+      "Attack Speed": "15%",
+      "Adaptive Attack": 16,
+      "Adaptive Penetration": "10%"
+    },
+    "standardTalents": {
+      "Fatal": {
+        "effect": "Gain 5% Crit Chance and 5% extra Crit Damage."
+      },
+      "Weapon Master": {
+        "effect": "Physical Attack and Magic Power gained from equipment, emblem, talents, and skills are increased by 8%."
+      }
+    },
+    "coreTalents": {
+      "Weakness Finder": {
+        "effect": "Basic Attacks slow enemies by 50% and reduce their Attack Speed by 30%.",
+        "duration": "1s",
+        "cooldown": "10s"
+      }
+    }
+  }
+}

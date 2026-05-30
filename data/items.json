@@ -1,0 +1,84 @@
+{
+  "Attack": {
+    "Berserker's Fury": { "cost": 2390, "type": "Attack" },
+    "Blade of Despair": { "cost": 3010, "type": "Attack" },
+    "Blade of the Heptaseas": { "cost": 1950, "type": "Attack" },
+    "Corrosion Scythe": { "cost": 2050, "type": "Attack" },
+    "Demon Hunter Sword": { "cost": 2180, "type": "Attack" },
+    "Endless Battle": { "cost": 2330, "type": "Attack" },
+    "Fleeting Time": { "cost": 2050, "type": "Hybrid" },
+    "Golden Staff": { "cost": 2000, "type": "Attack" },
+    "Great Dragon Spear": { "cost": 2140, "type": "Attack" },
+    "Haas's Claws": { "cost": 2020, "type": "Attack" },
+    "Hunter Strike": { "cost": 2010, "type": "Attack" },
+    "Malefic Gun": { "cost": 2120, "type": "Attack" },
+    "Malefic Roar": { "cost": 2060, "type": "Attack" },
+    "Rose Gold Meteor": { "cost": 1820, "type": "Attack" },
+    "Sea Halberd": { "cost": 2050, "type": "Attack" },
+    "Sky Piercer": { "cost": 1500, "type": "Hybrid" },
+    "War Axe": { "cost": 2100, "type": "Attack" },
+    "Wind of Nature": { "cost": 1910, "type": "Attack" },
+    "Windtalker": { "cost": 1880, "type": "Attack" },
+    "Winter Crown": { "cost": 1910, "type": "Hybrid" }
+  },
+
+  "Magic": {
+    "Blood Wings": { "cost": 2100, "type": "Magic" },
+    "Clock of Destiny": { "cost": 2030, "type": "Magic" },
+    "Concentrated Energy": { "cost": 2020, "type": "Magic" },
+    "Divine Glaive": { "cost": 1970, "type": "Magic" },
+    "Enchanted Talisman": { "cost": 1870, "type": "Magic" },
+    "Feather of Heaven": { "cost": 2030, "type": "Magic" },
+    "Flask of the Oasis": { "cost": 1850, "type": "Magic" },
+    "Fleeting Time": { "cost": 2050, "type": "Hybrid" },
+    "Genius Wand": { "cost": 2000, "type": "Magic" },
+    "Glowing Wand": { "cost": 2150, "type": "Magic" },
+    "Holy Crystal": { "cost": 3000, "type": "Magic" },
+    "Ice Queen Wand": { "cost": 2040, "type": "Magic" },
+    "Lightning Truncheon": { "cost": 2250, "type": "Magic" },
+    "Sky Piercer": { "cost": 1500, "type": "Hybrid" },
+    "Starlium Scythe": { "cost": 2220, "type": "Magic" },
+    "Winter Crown": { "cost": 1910, "type": "Hybrid" },
+    "Wishing Lantern": { "cost": 2250, "type": "Magic" }
+  },
+
+  "Defense": {
+    "Antique Cuirass": { "cost": 2170, "type": "Defense" },
+    "Athena's Shield": { "cost": 2150, "type": "Defense" },
+    "Blade Armor": { "cost": 1910, "type": "Defense" },
+    "Brute Force Breastplate": { "cost": 1870, "type": "Defense" },
+    "Chastise Pauldron": { "cost": 2100, "type": "Defense" },
+    "Cursed Helmet": { "cost": 1910, "type": "Defense" },
+    "Dominance Ice": { "cost": 2010, "type": "Defense" },
+    "Fleeting Time": { "cost": 2050, "type": "Hybrid" },
+    "Guardian Helmet": { "cost": 2200, "type": "Defense" },
+    "Immortality": { "cost": 2120, "type": "Defense" },
+    "Oracle": { "cost": 1860, "type": "Defense" },
+    "Queen's Wings": { "cost": 2250, "type": "Defense" },
+    "Radiant Armor": { "cost": 1880, "type": "Defense" },
+    "Thunder Belt": { "cost": 1820, "type": "Defense" }
+  },
+
+  "Movement": {
+    "Arcane Boots": { "cost": 690, "type": "Movement" },
+    "Demon Shoes": { "cost": 720, "type": "Movement" },
+    "Magic Shoes": { "cost": 710, "type": "Movement" },
+    "Rapid Boots": { "cost": 750, "type": "Movement" },
+    "Swift Boots": { "cost": 710, "type": "Movement" },
+    "Tough Boots": { "cost": 700, "type": "Movement" },
+    "Warrior Boots": { "cost": 720, "type": "Movement" }
+  },
+
+  "Jungling": {
+    "Bloody Retribution": { "cost": 0, "type": "Jungling" },
+    "Flame Retribution": { "cost": 0, "type": "Jungling" },
+    "Ice Retribution": { "cost": 0, "type": "Jungling" }
+  },
+
+  "Roaming": {
+    "Conceal": { "cost": 0, "type": "Roaming" },
+    "Dire Hit": { "cost": 0, "type": "Roaming" },
+    "Encourage": { "cost": 0, "type": "Roaming" },
+    "Favor": { "cost": 0, "type": "Roaming" }
+  }
+}

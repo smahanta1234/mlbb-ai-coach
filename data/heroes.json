@@ -1,0 +1,803 @@
+{
+  "totalHeroes": 132,
+  "format": {
+    "roles": ["Primary Role"],
+    "lanes": ["Recommended Lane"],
+    "playstyles": ["Style1", "Style2"],
+    "difficulty": "Easy|Medium|Hard"
+  },
+  "heroes": {
+    "Miya": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Damage", "Scaling"],
+      "difficulty": "Easy"
+    },
+    "Balmond": {
+      "roles": ["Fighter"],
+      "lanes": ["Jungle", "EXP"],
+      "playstyles": ["Damage", "Regen", "Sustain"],
+      "difficulty": "Easy"
+    },
+    "Saber": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle", "Roam"],
+      "playstyles": ["Charge", "Finisher", "Pickoff"],
+      "difficulty": "Easy"
+    },
+    "Alice": {
+      "roles": ["Tank", "Mage"],
+      "lanes": ["EXP", "Jungle"],
+      "playstyles": ["Charge", "Regen", "Teamfight"],
+      "difficulty": "Medium"
+    },
+    "Nana": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Poke", "Burst", "Control"],
+      "difficulty": "Easy"
+    },
+    "Tigreal": {
+      "roles": ["Tank"],
+      "lanes": ["Roam"],
+      "playstyles": ["Crowd Control", "Initiator", "Tank"],
+      "difficulty": "Easy"
+    },
+    "Alucard": {
+      "roles": ["Fighter", "Assassin"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Chase", "Damage", "Sustain"],
+      "difficulty": "Easy"
+    },
+    "Karina": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Finisher", "Magic Damage", "Burst"],
+      "difficulty": "Medium"
+    },
+    "Akai": {
+      "roles": ["Tank"],
+      "lanes": ["Roam"],
+      "playstyles": ["Guard", "Crowd Control", "Initiator"],
+      "difficulty": "Medium"
+    },
+    "Franco": {
+      "roles": ["Tank"],
+      "lanes": ["Roam"],
+      "playstyles": ["Initiator", "Control", "Pickoff"],
+      "difficulty": "Medium"
+    },
+    "Bane": {
+      "roles": ["Fighter", "Mage"],
+      "lanes": ["Jungle", "EXP"],
+      "playstyles": ["Push", "Burst", "Poke"],
+      "difficulty": "Easy"
+    },
+    "Bruno": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Burst", "Crit"],
+      "difficulty": "Easy"
+    },
+    "Clint": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Burst", "Poke"],
+      "difficulty": "Easy"
+    },
+    "Rafaela": {
+      "roles": ["Support"],
+      "lanes": ["Roam"],
+      "playstyles": ["Regen", "Guard", "Support"],
+      "difficulty": "Easy"
+    },
+    "Eudora": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Control", "Burst", "Pickoff"],
+      "difficulty": "Easy"
+    },
+    "Zilong": {
+      "roles": ["Fighter", "Assassin"],
+      "lanes": ["EXP"],
+      "playstyles": ["Chase", "Damage", "Split Push"],
+      "difficulty": "Easy"
+    },
+    "Fanny": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Chase", "Finisher", "Mobility"],
+      "difficulty": "Hard"
+    },
+    "Layla": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Damage", "Scaling"],
+      "difficulty": "Easy"
+    },
+    "Minotaur": {
+      "roles": ["Tank", "Support"],
+      "lanes": ["Roam"],
+      "playstyles": ["Crowd Control", "Teamfight", "Support"],
+      "difficulty": "Easy"
+    },
+    "Lolita": {
+      "roles": ["Support", "Tank"],
+      "lanes": ["Roam"],
+      "playstyles": ["Guard", "Crowd Control", "Protect"],
+      "difficulty": "Medium"
+    },
+    "Hayabusa": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Chase", "Burst", "Split Push"],
+      "difficulty": "Hard"
+    },
+    "Freya": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP", "Jungle"],
+      "playstyles": ["Chase", "Damage", "Attack Speed"],
+      "difficulty": "Easy"
+    },
+    "Gord": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Poke", "Burst", "Zone Control"],
+      "difficulty": "Easy"
+    },
+    "Natalia": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle", "Roam"],
+      "playstyles": ["Chase", "Finisher", "Stealth"],
+      "difficulty": "Medium"
+    },
+    "Kagura": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Poke", "Finisher", "Mobility"],
+      "difficulty": "Hard"
+    },
+    "Chou": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP", "Roam"],
+      "playstyles": ["Chase", "Control", "Pickoff"],
+      "difficulty": "Hard"
+    },
+    "Sun": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP", "Jungle"],
+      "playstyles": ["Push", "Damage", "Split Push"],
+      "difficulty": "Easy"
+    },
+    "Alpha": {
+      "roles": ["Fighter"],
+      "lanes": ["Jungle", "EXP"],
+      "playstyles": ["Charge", "Damage", "Sustain"],
+      "difficulty": "Easy"
+    },
+    "Ruby": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Crowd Control", "Regen", "Teamfight"],
+      "difficulty": "Medium"
+    },
+    "Yi Sun-shin": {
+      "roles": ["Assassin", "Marksman"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Finisher", "Chase", "Global"],
+      "difficulty": "Hard"
+    },
+    "Moskov": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Chase", "Attack Speed"],
+      "difficulty": "Medium"
+    },
+    "Johnson": {
+      "roles": ["Tank", "Support"],
+      "lanes": ["Roam"],
+      "playstyles": ["Support", "Crowd Control", "Initiator"],
+      "difficulty": "Medium"
+    },
+    "Cyclops": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Poke", "Control", "Burst"],
+      "difficulty": "Easy"
+    },
+    "Estes": {
+      "roles": ["Support"],
+      "lanes": ["Roam"],
+      "playstyles": ["Regen", "Guard", "Healing"],
+      "difficulty": "Easy"
+    },
+    "Hilda": {
+      "roles": ["Fighter", "Tank"],
+      "lanes": ["Roam", "EXP"],
+      "playstyles": ["Damage", "Regen", "Bush Control"],
+      "difficulty": "Easy"
+    },
+    "Aurora": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Crowd Control", "Poke", "Burst"],
+      "difficulty": "Easy"
+    },
+    "Lapu-Lapu": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Chase", "Burst", "Teamfight"],
+      "difficulty": "Medium"
+    },
+    "Vexana": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Poke", "Control", "Summoner"],
+      "difficulty": "Easy"
+    },
+    "Roger": {
+      "roles": ["Fighter", "Marksman"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Finisher", "Burst", "Chase"],
+      "difficulty": "Medium"
+    },
+    "Karrie": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Damage", "Tank Killer"],
+      "difficulty": "Medium"
+    },
+    "Gatotkaca": {
+      "roles": ["Tank", "Fighter"],
+      "lanes": ["Roam", "EXP"],
+      "playstyles": ["Crowd Control", "Burst", "Initiator"],
+      "difficulty": "Easy"
+    },
+    "Harley": {
+      "roles": ["Assassin", "Mage"],
+      "lanes": ["Jungle", "Mid"],
+      "playstyles": ["Burst", "Poke", "Pickoff"],
+      "difficulty": "Medium"
+    },
+    "Irithel": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Burst", "Kiting"],
+      "difficulty": "Easy"
+    },
+    "Grock": {
+      "roles": ["Tank", "Fighter"],
+      "lanes": ["Roam"],
+      "playstyles": ["Crowd Control", "Initiator", "Wall Utility"],
+      "difficulty": "Medium"
+    },
+    "Argus": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Charge", "Burst", "Immortality"],
+      "difficulty": "Easy"
+    },
+    "Odette": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Burst", "Poke", "AOE"],
+      "difficulty": "Easy"
+    },
+    "Lancelot": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Chase", "Burst", "Mobility"],
+      "difficulty": "Hard"
+    },
+    "Diggie": {
+      "roles": ["Support"],
+      "lanes": ["Roam"],
+      "playstyles": ["Guard", "Poke", "Anti-CC"],
+      "difficulty": "Medium"
+    },
+    "Hylos": {
+      "roles": ["Tank"],
+      "lanes": ["Roam"],
+      "playstyles": ["Guard", "Initiator", "Sustain"],
+      "difficulty": "Easy"
+    },
+    "Zhask": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Chase", "Damage", "Summoner"],
+      "difficulty": "Medium"
+    },
+    "Helcurt": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle", "Roam"],
+      "playstyles": ["Push", "Burst", "Silence"],
+      "difficulty": "Medium"
+    },
+    "Pharsa": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Burst", "Poke", "Artillery"],
+      "difficulty": "Medium"
+    },
+    "Lesley": {
+      "roles": ["Marksman", "Assassin"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Burst", "Sniper"],
+      "difficulty": "Easy"
+    },
+    "Jawhead": {
+      "roles": ["Fighter"],
+      "lanes": ["Roam", "EXP"],
+      "playstyles": ["Charge", "Burst", "Throw"],
+      "difficulty": "Medium"
+    },
+    "Angela": {
+      "roles": ["Support"],
+      "lanes": ["Roam"],
+      "playstyles": ["Guard", "Support", "Global"],
+      "difficulty": "Easy"
+    },
+    "Gusion": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle", "Mid"],
+      "playstyles": ["Burst", "Magic Damage", "Combo"],
+      "difficulty": "Hard"
+    },
+    "Valir": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Damage", "Guard", "Anti-Dive"],
+      "difficulty": "Easy"
+    },
+    "Martis": {
+      "roles": ["Fighter"],
+      "lanes": ["Jungle", "EXP"],
+      "playstyles": ["Finisher", "Charge", "Snowball"],
+      "difficulty": "Easy"
+    },
+    "Uranus": {
+      "roles": ["Tank"],
+      "lanes": ["EXP"],
+      "playstyles": ["Regen", "Sustain", "Frontline"],
+      "difficulty": "Easy"
+    },
+    "Hanabi": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Damage", "Teamfight"],
+      "difficulty": "Easy"
+    },
+    "Chang'e": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Poke", "Burst", "Zoning"],
+      "difficulty": "Easy"
+    },
+    "Kaja": {
+      "roles": ["Support", "Fighter"],
+      "lanes": ["Roam"],
+      "playstyles": ["Control", "Charge", "Suppress"],
+      "difficulty": "Medium"
+    },
+    "Selena": {
+      "roles": ["Assassin", "Mage"],
+      "lanes": ["Mid", "Roam"],
+      "playstyles": ["Initiator", "Finisher", "Trap"],
+      "difficulty": "Hard"
+    },
+    "Aldous": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Burst", "Support", "Scaling"],
+      "difficulty": "Easy"
+    },
+    "Claude": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Burst", "Chase", "Mobility"],
+      "difficulty": "Medium"
+    },
+    "Vale": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Burst", "Crowd Control", "Poke"],
+      "difficulty": "Easy"
+    },
+    "Leomord": {
+      "roles": ["Fighter"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Chase", "Burst", "Mounted"],
+      "difficulty": "Medium"
+    },
+    "Lunox": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Burst", "Damage", "Dual Form"],
+      "difficulty": "Hard"
+    },
+    "Hanzo": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Burst", "Poke", "Split Form"],
+      "difficulty": "Medium"
+    },
+    "Belerick": {
+      "roles": ["Tank"],
+      "lanes": ["Roam"],
+      "playstyles": ["Crowd Control", "Regen", "Reflect"],
+      "difficulty": "Easy"
+    },
+    "Kimmy": {
+      "roles": ["Marksman", "Mage"],
+      "lanes": ["Mid", "Gold"],
+      "playstyles": ["Damage", "Magic Damage", "Kiting"],
+      "difficulty": "Hard"
+    },
+    "Thamuz": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Chase", "Damage", "Sustain"],
+      "difficulty": "Easy"
+    },
+    "Harith": {
+      "roles": ["Mage"],
+      "lanes": ["Gold", "Jungle"],
+      "playstyles": ["Chase", "Damage", "Mobility"],
+      "difficulty": "Hard"
+    },
+    "Minsitthar": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP", "Roam"],
+      "playstyles": ["Initiator", "Crowd Control", "Anti-Dash"],
+      "difficulty": "Medium"
+    },
+    "Kadita": {
+      "roles": ["Mage", "Assassin"],
+      "lanes": ["Mid"],
+      "playstyles": ["Burst", "Charge", "Dive"],
+      "difficulty": "Medium"
+    },
+    "Faramis": {
+      "roles": ["Support", "Mage"],
+      "lanes": ["Mid", "Roam"],
+      "playstyles": ["Guard", "Charge", "Revive"],
+      "difficulty": "Medium"
+    },
+    "Badang": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP", "Roam"],
+      "playstyles": ["Charge", "Burst", "Combo"],
+      "difficulty": "Medium"
+    },
+    "Khufra": {
+      "roles": ["Tank"],
+      "lanes": ["Roam"],
+      "playstyles": ["Initiator", "Crowd Control", "Anti-Dash"],
+      "difficulty": "Medium"
+    },
+    "Granger": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Burst", "Finisher", "Poke"],
+      "difficulty": "Medium"
+    },
+    "Guinevere": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Burst", "Magic Damage", "Combo"],
+      "difficulty": "Medium"
+    },
+    "Esmeralda": {
+      "roles": ["Tank", "Mage"],
+      "lanes": ["EXP"],
+      "playstyles": ["Regen", "Mixed Damage", "Sustain"],
+      "difficulty": "Medium"
+    },
+    "Terizla": {
+      "roles": ["Fighter", "Tank"],
+      "lanes": ["EXP"],
+      "playstyles": ["Burst", "Crowd Control", "Teamfight"],
+      "difficulty": "Easy"
+    },
+    "X.Borg": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Regen", "Burst", "Sustain"],
+      "difficulty": "Easy"
+    },
+    "Ling": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Chase", "Burst", "Mobility"],
+      "difficulty": "Hard"
+    },
+    "Dyrroth": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP", "Jungle"],
+      "playstyles": ["Charge", "Burst", "Armor Break"],
+      "difficulty": "Easy"
+    },
+    "Lylia": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Push", "Damage", "Mobility"],
+      "difficulty": "Medium"
+    },
+    "Baxia": {
+      "roles": ["Tank"],
+      "lanes": ["Jungle", "Roam"],
+      "playstyles": ["Support", "Damage", "Anti-Heal"],
+      "difficulty": "Medium"
+    },
+    "Masha": {
+      "roles": ["Fighter", "Tank"],
+      "lanes": ["EXP"],
+      "playstyles": ["Push", "Damage", "Split Push"],
+      "difficulty": "Easy"
+    },
+    "Wanwan": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Burst", "Mobility"],
+      "difficulty": "Hard"
+    },
+    "Silvanna": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Initiator", "Magic Damage", "Lockdown"],
+      "difficulty": "Medium"
+    },
+    "Cecilion": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Poke", "Burst", "Scaling"],
+      "difficulty": "Easy"
+    },
+    "Carmilla": {
+      "roles": ["Support", "Tank"],
+      "lanes": ["Roam"],
+      "playstyles": ["Crowd Control", "Damage", "Link"],
+      "difficulty": "Medium"
+    },
+    "Atlas": {
+      "roles": ["Tank"],
+      "lanes": ["Roam"],
+      "playstyles": ["Crowd Control", "Initiator", "Teamfight"],
+      "difficulty": "Medium"
+    },
+    "Popol and Kupa": {
+      "roles": ["Marksman"],
+      "lanes": ["Jungle", "Gold"],
+      "playstyles": ["Push", "Burst", "Trap"],
+      "difficulty": "Medium"
+    },
+    "Yu Zhong": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Regen", "Damage", "Teamfight"],
+      "difficulty": "Medium"
+    },
+    "Luo Yi": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Support", "Crowd Control", "Teleport"],
+      "difficulty": "Medium"
+    },
+    "Benedetta": {
+      "roles": ["Assassin", "Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Chase", "Burst", "Mobility"],
+      "difficulty": "Hard"
+    },
+    "Khaleed": {
+      "roles": ["Fighter"],
+      "lanes": ["Roam", "EXP"],
+      "playstyles": ["Damage", "Regen", "Mobility"],
+      "difficulty": "Easy"
+    },
+    "Barats": {
+      "roles": ["Tank", "Fighter"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Damage", "Crowd Control", "Frontline"],
+      "difficulty": "Medium"
+    },
+    "Brody": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Burst", "Finisher", "Poke"],
+      "difficulty": "Medium"
+    },
+    "Yve": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Burst", "Poke", "Zone Control"],
+      "difficulty": "Medium"
+    },
+    "Mathilda": {
+      "roles": ["Support", "Assassin"],
+      "lanes": ["Roam"],
+      "playstyles": ["Initiator", "Guard", "Mobility"],
+      "difficulty": "Medium"
+    },
+    "Paquito": {
+      "roles": ["Fighter", "Assassin"],
+      "lanes": ["EXP"],
+      "playstyles": ["Chase", "Damage", "Combo"],
+      "difficulty": "Hard"
+    },
+    "Gloo": {
+      "roles": ["Tank"],
+      "lanes": ["Roam", "EXP"],
+      "playstyles": ["Regen", "Control", "Attach"],
+      "difficulty": "Medium"
+    },
+    "Beatrix": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Damage", "Weapon Swap"],
+      "difficulty": "Hard"
+    },
+    "Phoveus": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Regen", "Damage", "Anti-Dash"],
+      "difficulty": "Easy"
+    },
+    "Natan": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Burst", "Magic Damage", "Scaling"],
+      "difficulty": "Medium"
+    },
+    "Aulus": {
+      "roles": ["Fighter"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Damage", "Charge", "Scaling"],
+      "difficulty": "Easy"
+    },
+    "Aamon": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Chase", "Magic Damage", "Stealth"],
+      "difficulty": "Medium"
+    },
+    "Valentina": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Burst", "Finisher", "Ultimate Copy"],
+      "difficulty": "Hard"
+    },
+    "Edith": {
+      "roles": ["Tank", "Marksman"],
+      "lanes": ["EXP", "Roam"],
+      "playstyles": ["Control", "Burst", "Transform"],
+      "difficulty": "Medium"
+    },
+    "Floryn": {
+      "roles": ["Support"],
+      "lanes": ["Roam"],
+      "playstyles": ["Poke", "Guard", "Healing"],
+      "difficulty": "Easy"
+    },
+    "Yin": {
+      "roles": ["Fighter", "Assassin"],
+      "lanes": ["Jungle", "EXP"],
+      "playstyles": ["Burst", "Control", "Isolation"],
+      "difficulty": "Easy"
+    },
+    "Melissa": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Damage", "Poke"],
+      "difficulty": "Medium"
+    },
+    "Xavier": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Damage", "Guard", "Artillery"],
+      "difficulty": "Medium"
+    },
+    "Julian": {
+      "roles": ["Assassin", "Fighter"],
+      "lanes": ["Jungle", "EXP"],
+      "playstyles": ["Chase", "Magic Damage", "Combo"],
+      "difficulty": "Medium"
+    },
+    "Fredrinn": {
+      "roles": ["Fighter", "Tank"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Damage", "Chase", "Frontline"],
+      "difficulty": "Easy"
+    },
+    "Joy": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Chase", "Damage", "Mobility"],
+      "difficulty": "Hard"
+    },
+    "Novaria": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Burst", "Poke", "Vision"],
+      "difficulty": "Medium"
+    },
+    "Arlott": {
+      "roles": ["Fighter", "Assassin"],
+      "lanes": ["EXP"],
+      "playstyles": ["Charge", "Burst", "Crowd Control"],
+      "difficulty": "Medium"
+    },
+    "Ixia": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Damage", "AOE"],
+      "difficulty": "Easy"
+    },
+    "Nolan": {
+      "roles": ["Assassin"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Chase", "Burst", "Mobility"],
+      "difficulty": "Medium"
+    },
+    "Cici": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP"],
+      "playstyles": ["Damage", "Regen", "Mobility"],
+      "difficulty": "Easy"
+    },
+    "Chip": {
+      "roles": ["Support", "Tank"],
+      "lanes": ["Roam"],
+      "playstyles": ["Support", "Crowd Control", "Portal"],
+      "difficulty": "Medium"
+    },
+    "Zhuxin": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Damage", "Crowd Control", "Poke"],
+      "difficulty": "Medium"
+    },
+    "Suyou": {
+      "roles": ["Assassin", "Fighter"],
+      "lanes": ["Jungle"],
+      "playstyles": ["Chase", "Burst", "Combo"],
+      "difficulty": "Medium"
+    },
+    "Lukas": {
+      "roles": ["Fighter"],
+      "lanes": ["EXP", "Jungle"],
+      "playstyles": ["Regen", "Damage", "Bruiser"],
+      "difficulty": "Easy"
+    },
+    "Kalea": {
+      "roles": ["Support", "Fighter"],
+      "lanes": ["Roam"],
+      "playstyles": ["Control", "Regen", "Utility"],
+      "difficulty": "Medium"
+    },
+    "Zetian": {
+      "roles": ["Mage"],
+      "lanes": ["Mid"],
+      "playstyles": ["Damage", "Crowd Control", "Burst"],
+      "difficulty": "Medium"
+    },
+    "Obsidia": {
+      "roles": ["Marksman"],
+      "lanes": ["Gold"],
+      "playstyles": ["Finisher", "Damage", "Scaling"],
+      "difficulty": "Medium"
+    },
+    "Sora": {
+      "roles": ["Fighter", "Assassin"],
+      "lanes": ["EXP"],
+      "playstyles": ["Charge", "Burst", "Mobility"],
+      "difficulty": "Medium"
+    },
+    "Marcel": {
+      "roles": ["Support"],
+      "lanes": ["Roam"],
+      "playstyles": ["Crowd Control", "Support", "Utility"],
+      "difficulty": "Medium"
+    }
+  }
+}

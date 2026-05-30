@@ -1,0 +1,43 @@
+MLBB Macro Strategy Guide
+
+Objectives are more important than kills.
+Teams should prioritize:
+- Turtle control in early game
+- Lord control in mid to late game
+- Tower pressure after winning fights
+- Vision and map control
+
+Roamers should:
+- provide vision
+- rotate with jungler and mid laner
+- secure bushes before objectives
+
+Gold laners should:
+- prioritize farming safely
+- avoid unnecessary early fights
+- scale into late game
+
+EXP laners should:
+- manage side lane pressure and zone during objectives
+- create flank opportunities
+- split push when appropriate
+
+Junglers should:
+- optimize farm rotation
+- secure objectives with Retribution
+- track enemy jungler movement
+
+Mid laners should:
+- rotate early
+- provide wave clear
+- assist side lanes
+
+Snowball compositions should:
+- force early objectives
+- invade jungle
+- deny enemy farm
+
+Scaling compositions should:
+- avoid risky early fights
+- prioritize economy
+- stall for late game power spikes
