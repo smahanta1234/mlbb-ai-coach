@@ -1,8 +1,34 @@
 # 🎮 MLBB AI Coach
 
-An AI-powered gameplay coaching platform for Mobile Legends: Bang Bang (MLBB) that analyzes gameplay context, draft composition, hero selection, and player preferences to generate intelligent coaching reports.
+An AI-powered gameplay coaching platform for Mobile Legends: Bang Bang (MLBB) that analyzes gameplay context, hero selection, draft composition, and player preferences to generate intelligent coaching reports.
 
-Built using FastAPI, React, Retrieval-Augmented Generation (RAG), and LLM-powered analysis.
+The project currently includes:
+
+- ✅ Fully functional Streamlit application
+- 🚧 React + FastAPI migration in progress
+- ✅ Retrieval-Augmented Generation (RAG)
+- ✅ AI-powered gameplay analysis
+- ✅ Draft intelligence system
+- ✅ Hero, item, and emblem recommendation systems
+
+Built using Python, Streamlit, FastAPI, React, and LLM-based AI workflows.
+
+---
+
+## Current Project Status
+
+| Component | Status |
+|------------|---------|
+| Streamlit App | ✅ Complete |
+| AI Guide Generation | ✅ Complete |
+| Draft Analysis | ✅ Complete |
+| Hero Intelligence System | ✅ Complete |
+| RAG Pipeline | ✅ Complete |
+| Item Recommendations | ✅ Complete |
+| Emblem Recommendations | ✅ Complete |
+| FastAPI Backend | 🚧 In Progress |
+| React Frontend | 🚧 In Progress |
+| Voice Features | 🚧 Planned |
 
 ---
 
@@ -10,58 +36,65 @@ Built using FastAPI, React, Retrieval-Augmented Generation (RAG), and LLM-powere
 
 ### 🤖 AI Gameplay Coaching
 - Generates structured gameplay reports
-- Provides macro and micro strategy recommendations
-- Explains strengths and weaknesses
-- Suggests improvement plans
+- Macro and micro gameplay analysis
+- Improvement recommendations
+- Matchup advice
+- Educational coaching
 
 ### ⚔️ Draft Intelligence
-- Analyzes ally and enemy team compositions
-- Evaluates hero synergies and counters
-- Provides matchup insights
+- Ally and enemy team analysis
+- Counter-pick evaluation
+- Synergy analysis
+- Matchup insights
 
 ### 🧠 Hero Intelligence System
 - Hero validation
+- Meta tier evaluation
 - Role and lane compatibility
-- Meta tier information
 - Playstyle analysis
 
-### 🛡️ Build Recommendations
+### 🛡️ Recommendation Systems
 - Item recommendations
 - Emblem recommendations
-- Situational build guidance
+- Situational build suggestions
 
 ### 📚 Retrieval-Augmented Generation (RAG)
-- Retrieves relevant MLBB knowledge
+- Retrieves MLBB knowledge from local knowledge base
 - Injects contextual information into prompts
-- Produces more informed responses
+- Improves guide quality and relevance
 
 ### 🎙️ Planned Features
 - Voice analysis
 - Speech-to-text gameplay input
 - Audio coaching output
-- Enhanced live draft assistant
+- Live draft assistant
 
 ---
 
 ## Tech Stack
 
+### AI / ML
+- LLM-powered guide generation
+- Retrieval-Augmented Generation (RAG)
+- Prompt Engineering
+- Recommendation Systems
+- NLP workflows
+
 ### Backend
 - Python
 - FastAPI
-- OpenRouter API
 - Requests
 - dotenv
+- OpenRouter API
 
 ### Frontend
 - React
 - Vite
 - TailwindCSS
 
-### AI / ML
-- Retrieval-Augmented Generation (RAG)
-- Prompt Engineering
-- Context Builders
-- Recommendation Systems
+### Streamlit
+- Streamlit UI
+- Interactive dashboard components
 
 ---
 
@@ -70,7 +103,9 @@ Built using FastAPI, React, Retrieval-Augmented Generation (RAG), and LLM-powere
 ```text
 mlbb-ai-coach/
 │
-├── api.py
+├── app.py                    # Streamlit app
+├── api.py                    # FastAPI backend
+│
 ├── src/
 │   ├── guide_generator.py
 │   ├── rag_pipeline.py
@@ -80,12 +115,10 @@ mlbb-ai-coach/
 │   ├── emblem_system.py
 │   └── context_builder.py
 │
-├── knowledge_base/
 ├── data/
+├── knowledge_base/
 │
-├── mlbb-coach-ui/
-│   ├── src/
-│   └── components/
+├── mlbb-coach-ui/            # React frontend
 │
 ├── .env.example
 ├── README.md
@@ -96,14 +129,15 @@ mlbb-ai-coach/
 
 ## Installation
 
-Clone the repository:
+Clone repository:
 
 ```bash
 git clone https://github.com/smahanta1234/mlbb-ai-coach.git
+
 cd mlbb-ai-coach
 ```
 
-Create a virtual environment:
+Create virtual environment:
 
 ```bash
 python -m venv .venv
@@ -129,7 +163,7 @@ Install backend dependencies:
 pip install -r requirements.txt
 ```
 
-Install frontend dependencies:
+Install React dependencies:
 
 ```bash
 cd mlbb-coach-ui
@@ -149,13 +183,27 @@ OPENAI_BASE_URL=https://openrouter.ai/api/v1/chat/completions
 
 ---
 
-## Run Backend
+## Run Streamlit App
+
+```bash
+streamlit run app.py
+```
+
+Open:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## Run FastAPI Backend
 
 ```bash
 uvicorn api:app --reload
 ```
 
-Backend:
+Open:
 
 ```text
 http://localhost:8000
@@ -163,14 +211,15 @@ http://localhost:8000
 
 ---
 
-## Run Frontend
+## Run React Frontend
 
 ```bash
 cd mlbb-coach-ui
+
 npm run dev
 ```
 
-Frontend:
+Open:
 
 ```text
 http://localhost:5173
@@ -181,20 +230,21 @@ http://localhost:5173
 ## Sample Workflow
 
 1. Select hero and lane
-2. Choose playstyle
-3. Add ally and enemy draft information
-4. Provide gameplay transcript
+2. Select playstyle
+3. Add ally and enemy draft
+4. Add gameplay transcript
 5. Generate AI coaching report
 
 ---
 
 ## Future Improvements
 
-- Live draft assistant
-- Match history integration
+- Complete React migration
 - Voice coaching
+- Live draft assistant
 - Streaming responses
-- User accounts
+- Match history integration
+- User authentication
 - Analytics dashboard
 - Deployment
 
@@ -206,3 +256,9 @@ http://localhost:5173
 
 GitHub:
 https://github.com/smahanta1234
+
+---
+
+## Disclaimer
+
+Mobile Legends: Bang Bang and related assets are trademarks of their respective owners. This project is an independent educational and portfolio project and is not affiliated with or endorsed by Moonton.
