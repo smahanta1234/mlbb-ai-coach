@@ -206,9 +206,3 @@ http://localhost:5173
 
 GitHub:
 https://github.com/smahanta1234
-
----
-
-## License
-
-MIT
